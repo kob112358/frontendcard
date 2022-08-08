@@ -1,0 +1,36 @@
+.display-card {
+    background-image: url(../images/bg-card-front.png);
+    width: 275px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: -15%;
+    z-index: 10;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    padding: 0 20px;
+    word-spacing: 1.5em;
+}
+.display-card div {
+    color: white;
+}
+.svg {
+    height: auto;
+    margin: 5% 0 0 0;
+    display: block;
+    background-size: 100% 100%;
+  }
+
+  .display-card__info {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .display-card__info div {
+    font-size: 11px;
+  }

@@ -1,5 +1,28 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); font-size: 11px }
+
+.creditComponent {
+  height: 100%;
+  width: 100%;
+  max-width: 375px;
+}
+.header {
+  height: 30%;
+  width: 100%;
+  background: linear-gradient(to right, hsl(278, 94%, 30%), hsl(249, 99%, 64%));
+}
+.background-card {
+  background-image: url('images/bg-card-back.png');
+  width: 275px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 15%;
+  left: 15%;
+  position: relative;
+  z-index: 1;
+}
