@@ -1,0 +1,29 @@
+.background-card {
+  background-image: url("../images/bg-card-back.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 268.2px;
+  height: 135px;
+  top: 15%;
+  left: 30%;
+  position: relative;
+  z-index: 1;
+}
+
+.background-card__cvc {
+  color: white;
+  font-size: 11px;
+  display: inline;
+  position: absolute;
+  right: 20%;
+  top: 45%;
+}
+
+@media (min-width: 900px) {
+  .background-card {
+    height: 225px;
+    width: 447px;
+    top: 50%;
+    left: 55%;
+  }
+}
