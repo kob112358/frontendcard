@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kob112358/frontendcard/static/css/main.665a9c45.css",
+    "main.js": "/kob112358/frontendcard/static/js/main.c652a421.js",
+    "static/js/787.e285a310.chunk.js": "/kob112358/frontendcard/static/js/787.e285a310.chunk.js",
+    "static/media/bg-card-back.png": "/kob112358/frontendcard/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
+    "static/media/bg-card-front.png": "/kob112358/frontendcard/static/media/bg-card-front.8153e2ca184402a8385f.png",
+    "index.html": "/kob112358/frontendcard/index.html",
+    "static/media/icon-complete.svg": "/kob112358/frontendcard/static/media/icon-complete.8fd757c0c5c44b1d597ca411400e046d.svg",
+    "static/media/card-logo.svg": "/kob112358/frontendcard/static/media/card-logo.8ca9036515954c3f8191559dce9c7bdf.svg",
+    "main.665a9c45.css.map": "/kob112358/frontendcard/static/css/main.665a9c45.css.map",
+    "main.c652a421.js.map": "/kob112358/frontendcard/static/js/main.c652a421.js.map",
+    "787.e285a310.chunk.js.map": "/kob112358/frontendcard/static/js/787.e285a310.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.665a9c45.css",
+    "static/js/main.c652a421.js"
+  ]
+}
