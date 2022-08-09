@@ -84,7 +84,7 @@ footer {
   transform: translate(-50%, 0);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1120px) {
   .creditComponent {
     height: 100vh;
     max-width: 100%;

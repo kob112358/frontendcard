@@ -4,11 +4,11 @@ import BackCard from "./componenets/BackCard";
 import Complete from "./componenets/Complete";
 
 function App() {
-  const [cardName, setCardName] = useState("JANE APPLESEED");
-  const [cardNumber, setCardNumber] = useState("0000000000000000");
+  const [cardName, setCardName] = useState("");
+  const [cardNumber, setCardNumber] = useState("");
   const [expMonth, setExpMonth] = useState("");
   const [expYear, setExpYear] = useState("");
-  const [cvc, setCvc] = useState("000");
+  const [cvc, setCvc] = useState("");
   const [cardNameError, setCardNameError] = useState("");
   const [cardNumberError, setCardNumberError] = useState("");
   const [expMonthError, setExpMonthError] = useState("");
@@ -130,7 +130,13 @@ function App() {
       cardNumberError.length === 0 &&
       expMonthError.length === 0 &&
       expYearError.length === 0 &&
-      cvcError.length === 0
+      cvcError.length === 0 &&
+      cardName.length > 0 &&
+      cardNumber.length >= 15 &&
+      cardNumber.length <=16 &&
+      expMonth.length > 0 &&
+      expYear.length > 0 &&
+      cvc.length > 0
     ) {
       setIsComplete(true);
     } else {

@@ -19,11 +19,16 @@
   top: 45%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1120px) {
   .background-card {
     height: 225px;
     width: 447px;
     top: 50%;
     left: 55%;
+  }
+
+  .background-card__cvc {
+    font-size: 18px;
+    top: 44%;
   }
 }
